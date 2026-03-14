@@ -4,6 +4,7 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange?logo=scikit-learn)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
 ![License](https://img.shields.io/badge/License-MIT-green)
+![CI](https://github.com/nebulalarca/Customer-Segmentation-with-K-Means---RFM-Analysis/actions/workflows/ci.yml/badge.svg)
 
 ---
 
