@@ -24,12 +24,16 @@ jobs:
           pip install -r requirements.txt
           pip install nbconvert
 
+      - name: 📋 Dosyaları listele
+        run: ls -la
+
       - name: 📓 Notebook'u çalıştır
         run: |
           jupyter nbconvert --to notebook --execute \
             --ExecutePreprocessor.timeout=300 \
-            customer_segmentation.ipynb
+            --inplace \
+            "customer segmentation.ipynb"
 
-      - name: Başarılı
-        run: echo "Notebook hatasız çalıştı"
+      - name: ✅ Başarılı
+        run: echo "Notebook hatasız çalıştı!"
         
