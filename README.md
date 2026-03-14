@@ -12,7 +12,7 @@
 
 1 milyon satır e-ticaret verisi üzerinde **RFM özellik mühendisliği** ve 
 **K-Means kümeleme** kullanarak 50.000 müşteriyi 5 anlamlı segmente ayıran 
-uçtan uca bir makine öğrenmesi projesi.
+ bir makine öğrenmesi projesi.
 
 ---
 
